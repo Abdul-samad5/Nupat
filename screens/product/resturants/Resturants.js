@@ -25,14 +25,7 @@ const Resturants = () => {
 					  
                 <Text style={resturantstyle.rinsturaantname}>
                 {/* <MaterialCommunityIcons name="home-account" size={24} color="black"/>#{item.price} */}
-                <Entypo name="triangle-right" size={24} color="black" />{item.range}
-                </Text>
-                <Text
-                  numberOfLines={2}
-                  ellipsizeMode="tail"
-                  style={resturantstyle.rinsturaantname}
-                >
-               <FontAwesome name="bus" size={24} color="black" />{item.del}
+                <Entypo name="triangle-right" size={24} color="black" />{item.range}{" "}<FontAwesome style={resturantstyle.resturatname} name="bus" size={24} color="black" />{" "}{item.del}
                 </Text>
               </View>
             </View>

@@ -27,9 +27,12 @@ const resturantstyle = StyleSheet.create({
     alignItems: "center",
   },
   rinsturaantname: {
-    fontSize: 18,
+    fontSize: 12,
     color: "black",
+    marginLeft:-15,
+    marginTop:-5
   },
+  resturatname:{marginLeft:15},
   view:{
     fontSize:16,
     fontWeight:'bold'

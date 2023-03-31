@@ -25,14 +25,14 @@ const Login = ({ navigation }) => {
           <View>
             <Text style={creatAccountstyle.pagetext}>Sign In</Text>
             <View style={creatAccountstyle.inputview}>
-              <MaterialIcons name="call" size={24} color="black" />
+              <MaterialIcons name="call" size={24} color="gray" style={{marginLeft:10}}/>
               <TextInput
                 style={creatAccountstyle.input}
                 placeholder="Phone Number"
               />
             </View>
             <View style={creatAccountstyle.inputview}>
-              <FontAwesome5 name="lock" size={24} color="black" />
+              <FontAwesome5 name="lock" size={24} color="gray" style={{marginLeft:10}} />
               <TextInput
                 secureTextEntry={true}
                 style={creatAccountstyle.input}
@@ -44,7 +44,7 @@ const Login = ({ navigation }) => {
                 <Text style={creatAccountstyle.submittext}>Create Account</Text>
               </Pressable>
             </View>
-            <Text style={{ color: "red", left:270, marginTop:10 }}>Forgot password?</Text>
+            <Text style={{ color: "red", left:250, marginTop:10 }}>Forgot password?</Text>
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop:50}}>
               <View style={{flex: 1, height: 1, backgroundColor: 'black'}} />
               <View>

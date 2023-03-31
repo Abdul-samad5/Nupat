@@ -15,8 +15,7 @@ export default function LaunchScreen({navigation}) {
 }, [navigation]);
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>9ja foods</Text>
-      <TouchableOpacity onPress={()=> navigation.navigate("OnBoardingScreen")} style={styles.icon}><ChevronRightIcon style={styles.icons} color='white' size={30}/></TouchableOpacity>
+      <Text onPress={()=> navigation.navigate("OnBoardingScreen")} style={styles.text}>9ja foods</Text>
       <StatusBar style="auto" />
     </View>
   );

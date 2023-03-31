@@ -70,13 +70,13 @@ const CreatAccount = ({navigation}) => {
           </View>
         </KeyboardAvoidingView>
         <View style={creatAccountstyle.socialview}>
-          <View>
+          <View style={creatAccountstyle.social}>
             <AntDesign name="google" size={24} color="black" />
           </View>
-          <View>
+          <View style={creatAccountstyle.social}>
             <AntDesign name="facebook-square" size={24} color="black" />
           </View>
-          <View>
+          <View style={creatAccountstyle.social}>
             <AntDesign name="apple1" size={24} color="black" />
           </View>
         </View>

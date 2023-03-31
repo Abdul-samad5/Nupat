@@ -30,7 +30,7 @@ const Home = ({ navigation }) => {
   return (
     <Tab.Navigator
       initialRouteName="Home"
-      activeColor="black"
+      activeColor="green"
       inactiveColor="black"
       barStyle={{ backgroundColor: "white", color: "black" }}
       tabBarIcon={{ focused: "green", color: "red" }}
@@ -43,7 +43,7 @@ const Home = ({ navigation }) => {
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons
               name="home-account"
-              size={24}
+              size={30}
               color="black"
             />
           ),
@@ -55,7 +55,7 @@ const Home = ({ navigation }) => {
         options={{
           tabBarLabel: "Favorite",
           tabBarIcon: ({ color }) => (
-            <MaterialIcons name="favorite-outline" size={24} color="black" />
+            <MaterialIcons name="favorite-outline" size={30} color="black" />
           ),
         }}
       />
@@ -65,7 +65,7 @@ const Home = ({ navigation }) => {
         options={{
           tabBarLabel: "Cart",
           tabBarIcon: ({ color }) => (
-            <MaterialCommunityIcons name="cart" size={24} color="black" />
+            <MaterialCommunityIcons name="cart" size={30} color="black" />
           ),
         }}
       />
@@ -77,7 +77,7 @@ const Home = ({ navigation }) => {
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons
               name="face-man-profile"
-              size={24}
+              size={30}
               color="black"
             />
           ),

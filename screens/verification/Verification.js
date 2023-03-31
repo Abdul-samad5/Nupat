@@ -38,21 +38,21 @@ const Verification = ({ navigation }) => {
             </Text>
           </Pressable>
         </View>
-        <TouchableOpacity style={verify.nums}>
-          <Text style={verify.num}>1</Text>
-          <Text style={verify.num}>2</Text>
-          <Text style={verify.num}>3</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={verify.nums}>
-          <Text style={verify.num}>4</Text>
-          <Text style={verify.num}>5</Text>
-          <Text style={verify.num}>6</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={verify.nums}>
-          <Text style={verify.num}>7</Text>
-          <Text style={verify.num}>8</Text>
-          <Text style={verify.num}>9</Text>
-        </TouchableOpacity>
+        <View style={verify.nums}>
+          <TouchableOpacity><Text style={verify.num}>1</Text></TouchableOpacity>
+          <TouchableOpacity><Text style={verify.num}>2</Text></TouchableOpacity>
+          <TouchableOpacity><Text style={verify.num}>3</Text></TouchableOpacity>
+        </View>
+        <View style={verify.nums}>
+          <TouchableOpacity><Text style={verify.num}>4</Text></TouchableOpacity>
+          <TouchableOpacity><Text style={verify.num}>5</Text></TouchableOpacity>
+          <TouchableOpacity><Text style={verify.num}>6</Text></TouchableOpacity>
+        </View>
+        <View style={verify.nums}>
+          <TouchableOpacity><Text style={verify.num}>7</Text></TouchableOpacity>
+          <TouchableOpacity><Text style={verify.num}>8</Text></TouchableOpacity>
+          <TouchableOpacity><Text style={verify.num}>9</Text></TouchableOpacity>
+        </View>
         <TouchableOpacity style={verify.nums}>
           <Text style={verify.num}>0</Text>
         </TouchableOpacity>

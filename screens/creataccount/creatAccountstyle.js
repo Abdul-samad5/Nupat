@@ -3,18 +3,18 @@ import { StyleSheet } from 'react-native';
 const creatAccountstyle = StyleSheet.create({
   creatAccountsafeview: {
     flex: 1,
-  
   },
   creatAccountinputview: {
     position: "absolute",
-    bottom: 0,
+    bottom: 40,
   },
   pagetext:{
-    marginTop:20, 
+    marginTop:5, 
     color:'#000000', 
     fontSize:18, 
     textAlign:'center',
     fontWeight: 600,
+    marginTop:50
   },
   inputview: {
     flexDirection: "row",
@@ -49,7 +49,7 @@ const creatAccountstyle = StyleSheet.create({
     alignSelf: "center",
     fontSize: 20,
     marginBottom: 10,
-    marginTop:15,
+    marginTop:5,
   },
   orview: {
     alignItems: "center",
@@ -63,6 +63,7 @@ const creatAccountstyle = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     gap: 20,
+    marginTop:20
   },
   noaccountview: {
     alignItems: "center",

@@ -19,12 +19,12 @@ export default function OnBoardingScreen({navigation}) {
       dot={
         <View
           style={{
-            backgroundColor: 'rgba(255,255,255,.3)',
+            backgroundColor: 'gray',
             width: 15,
             height: 15,
             borderRadius: 7,
             marginLeft: 7,
-            marginBottom:20,
+            marginBottom:40,
             marginRight: 7
           }}
         />
@@ -38,7 +38,7 @@ export default function OnBoardingScreen({navigation}) {
             borderRadius: 7,
             marginLeft: 7,
             marginRight: 7,
-            marginBottom: 7,
+            marginBottom: 40,
           }}
         />
       }
@@ -101,9 +101,10 @@ position: 'absolute'
 },
 
 image: {
-width: 400,
+width: 350,
 height: 350,
-marginLeft:4,
+marginLeft:2,
+marginRight:3
 }, icon:{
 borderStyle:'solid',
 marginTop: 2,
@@ -124,14 +125,14 @@ text:{
   fontSize: 24,
   fontWeight:700,
   color:'#333333',
-  marginTop: 15,
+  marginTop: 45,
   marginLeft: 125,
 },
 para:{
   fontSize: 15,
   fontWeight:500,
   color:'#333333',
-  marginTop: 15,
+  marginTop: 35,
   marginLeft: 70,
   marginRight:35,
 }
